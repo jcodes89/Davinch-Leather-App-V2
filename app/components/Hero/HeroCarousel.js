@@ -31,7 +31,7 @@ const HeroCarousel = () => {
         </span>
       )}
       <div className='absolute h-screen w-screen text-white text-center flex flex-col justify-center z-30 '>
-        <h2 className='text-5xl md:text-5xl lg:text-6xl pb-2 md:px-10'>Artisanal Mastery, Timeless Elegance</h2>
+        <h2 className='text-5xl md:text-5xl lg:text-6xl pb-2 '>Artisanal Mastery, Timeless Elegance</h2>
         <p className='md:text-lg font-serif lg:text-xl'>Bespoke Luxury Leather Goods</p>
         <button>
           <Link className='btn mt-4 bg-accent text-base text-gray-50 hover:bg-gray-50 hover:text-accent hover:scale-110 w-fit' href={'/bespoke'}>Learn More</Link>
