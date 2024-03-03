@@ -5,8 +5,8 @@ import ContactInput from './ContactInput'
 const ContactForm = () => {
   return (
     <>
-        <form method='POST' data-netlify='true' className='flex flex-col p-3 px-0 mx-3 md:px-3 lg:w-2/4  rounded-md ' name='davinch'>
-            <input type='hidden' name='form-name' value='davinch'/>
+        <form method='POST' data-netlify='true' className='flex flex-col p-3 px-0 mx-3 md:px-3 lg:w-2/4  rounded-md ' name='contact'>
+            <input type='hidden' name='form-name' value='contact'/>
             <h2 className='text-center py-4 font-semibold text-2xl  '>
                Contact Davinch
             </h2>
