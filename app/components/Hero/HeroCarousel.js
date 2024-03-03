@@ -30,7 +30,7 @@ const HeroCarousel = () => {
         ><Image src={img.src} alt='image of leather products' className='h-screen w-screen object-cover'/>
         </span>
       )}
-      <div className='absolute h-screen w-screen text-white text-center flex flex-col justify-center z-30 p-2'>
+      <div className='absolute h-screen w-screen text-white text-center flex flex-col justify-center z-30 '>
         <h2 className='text-5xl md:text-5xl lg:text-6xl pb-2 md:px-10'>Artisanal Mastery, Timeless Elegance</h2>
         <p className='md:text-lg font-serif lg:text-xl'>Bespoke Luxury Leather Goods</p>
         <button>
