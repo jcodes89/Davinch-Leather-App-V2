@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'landscape' : {'raw': '(min-height: 800px)'},
+        
+      },
       fontFamily: {
         'cormorant' : ['var(--font-cormorant)']
       },

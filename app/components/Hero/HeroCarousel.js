@@ -37,7 +37,7 @@ const HeroCarousel = () => {
           <Link className='btn mt-4 bg-accent text-base text-gray-50 hover:bg-gray-50 hover:text-accent hover:scale-110 w-fit' href={'/bespoke'}>Learn More</Link>
         </button>
         </div>
-        <div className="flex justify-center w-full pb-4 gap-2 absolute z-30 bottom-3 text-white">
+        <div className="flex justify-center w-full pb-4 gap-2 absolute z-30 bottom-6 lg:bottom-4 landscape:bottom-1 text-gray-50">
           {HeroImages.map((img) => 
             <span key={img.id} href={img.src} className={`border-2 border-gray-50 h-4 w-4 rounded-box ${img.id === currentImage ? 'bg-accent focus:bg-accent' : ''}`}/>
           )}

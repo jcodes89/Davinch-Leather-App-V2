@@ -12,7 +12,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if(window.scrollY <= 1000) {
+      if(window.scrollY >= 1000) {
         setColor(true)
       } else {
         setColor(false)
@@ -26,7 +26,7 @@ const NavBar = () => {
 
   return (
     
-        <nav  className={color ? ` navBar flex text-white fixed  z-40 lg:border-b-accent lg:bg-gray-50  lg:text-gray-950 hover:bg-gray-50 hover:text-gray-950` : `navBar flex text-gray-950 fixed  z-40 pt-2 bg-gray-50  lg:text-gray-950 hover:bg-gray-50 hover:text-gray-950`}>
+        <nav  className={color ?  `navBar flex text-gray-950 fixed  z-40 pt-2 bg-gray-50  lg:text-gray-950 hover:bg-gray-50 hover:text-gray-950` : ` navBar flex text-white fixed  z-40 lg:border-b-accent lg:bg-gray-50  lg:text-gray-950 hover:bg-gray-50 hover:text-gray-950`}>
           <SocialMedia/>
           <div className='flex w-screen justify-center'>
             <div className='text-center '>
@@ -46,7 +46,7 @@ const NavBar = () => {
               </ul>
             </div>
             {/*Dropdown menu on mobile version */}
-            <div className="lg:hidden grid absolute w-full place-content-end right-[2rem] dropdown dropdown-bottom dropdown-end">
+            <div className="lg:hidden grid absolute w-full place-content-end right-[1rem] md:right-[2rem] dropdown dropdown-bottom dropdown-end">
               <div tabIndex={0} role="button" className=" mt-2">
                 <i className="fa-solid fa-bars scale-125">
                   

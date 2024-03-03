@@ -48,7 +48,7 @@ useGSAP(() => {
     <>
     <section className=" h-full w-full">
       <div className="h-screen flex flex-col items-center relative">
-        <h2 className={` text-gray-50 relative z-30 text-6xl top-1/2`}>Bespoke</h2>
+        <h2 className={` text-gray-50 relative z-30 text-5xl top-1/2 `}>Bespoke</h2>
         <Link className='btn relative z-30 top-[54%]  text-gray-50 hover:bg-accent hover:text-gray-50 text-base hover:scale-105' href={'/contact'}>Create Now</Link>
         <ScrollDownArrow/>
       </div>

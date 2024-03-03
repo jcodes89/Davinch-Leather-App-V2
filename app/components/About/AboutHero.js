@@ -10,7 +10,7 @@ const AboutHero = () => {
     <>
       <section className=" h-full w-screen relative">
         <div className="h-screen flex flex-col items-center relative">
-            <h2 className='text-gray-50  relative z-30 text-6xl top-1/2'>About</h2>
+            <h2 className='text-gray-50  relative z-30 text-5xl top-1/2'>About</h2>
         <ScrollDownArrow/>
         </div>
       </section>
@@ -23,7 +23,7 @@ const AboutHero = () => {
             src={img}
           />
           <div className='p-5 lg:w-2/3'>
-              <p className=' lg:pb-3 lg:text-lg my-4'>
+              <p className=' lg:pb-3 lg:text-lg my-4 '>
                 Welcome to Davinch Leather Co, a sanctuary of craftsmanship where passion and precision converge to create exceptional leather goods. With a wealth of experience spanning eight years, Jeremy Sluder has masterfully honed his skills, transforming leather into timeless pieces of art. 
               </p>
               <div className='xl:grid xl:grid-cols-2 '>
