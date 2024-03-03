@@ -32,7 +32,7 @@ const NavBar = () => {
             <div className='text-center '>
                 <Link className=' cursor-pointer z-20' href={'/'}>
                     <h2 className=' font-medium text-2xl'><span className='text-accent text-4xl'>D</span>avinch Leather Co</h2>
-                    <p className='text-[.5rem] md:text-[.7rem] font-extralight font-serif' >Est 2016</p>
+                    <p className='text-[.6rem] md:text-[.7rem] font-extralight font-serif' >Est 2016</p>
                 </Link>
             </div>
           </div>
