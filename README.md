@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Open [https://davinchleatherco.com/](https://davinchleatherco.com/) with your browser to see the result.
 
-First, run the development server:
+# Luxury Handcrafted Leather Goods Desktop Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository contains a desktop application built for a luxury handcrafted leather business using HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, and GSAP. The application showcases the exquisite craftsmanship of the leather products along with various features.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features:
+- **Landing Page:** Welcoming visitors with an elegant landing page showcasing the brand and its unique offerings.
+- **Product Gallery:** Displaying a gallery of handcrafted leather products, allowing users to explore the craftsmanship in detail.
+- **Contact Form:** Integrated with Netlify for seamless communication, enabling potential customers to reach out effortlessly.
+- **About Page:** Providing insights into the artisan behind the brand, their story, and the craftsmanship.
+- **Bespoke Feature:** Offering a bespoke section where the artisan describes the process of creating custom leather goods, providing a glimpse into the meticulous craftsmanship behind each unique piece.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Technologies Used:
+- **HTML:** Structuring the content for the application.
+- **CSS with Tailwind CSS:** Styling the application with a focus on elegance and luxury.
+- **JavaScript:** Adding interactivity and functionality to the application.
+- **React:** Utilized for building the user interface components.
+- **Next.js:** Employed for server-side rendering, enabling fast and optimized page loads.
+- **GSAP (GreenSock Animation Platform):** Enhancing user experience with smooth animations and transitions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This desktop application serves as a digital showcase for the luxury handcrafted leather business, highlighting its craftsmanship, elegance, and attention to detail. Explore the repository to discover more about the brand, its bespoke offerings, and the artisan's story!
