@@ -12,7 +12,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if(window.scrollY >= 1000) {
+      if(window.scrollY >= 950) {
         setColor(true)
       } else {
         setColor(false)
@@ -36,7 +36,7 @@ const NavBar = () => {
                 </Link>
             </div>
           </div>
-          <div className="hidden lg:grid self-center absolute w-screen place-content-end right-[5rem]">
+          <div className="hidden lg:grid self-center absolute w-screen place-content-end right-[8rem]">
               <ul  className="flex flex-row justify-evenly z-40  p-0 h-full  w-52">
                 <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/'}>Home</Link></li>
                 <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/bespoke'}>Bespoke</Link></li>
