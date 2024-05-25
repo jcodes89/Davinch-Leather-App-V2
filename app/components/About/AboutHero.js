@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import ScrollDownArrow from '../Arrow/ScrollDownArrow'
 import Image from 'next/image'
-import img from '../../../public/images/Untitled-1.png'
+import img from '../../../public/images/Untitled-1.webp'
 import AboutCard from './AboutCard'
 
 const AboutHero = () => {

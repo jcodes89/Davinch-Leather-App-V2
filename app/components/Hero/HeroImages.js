@@ -1,7 +1,7 @@
 
-import img1 from '../../../public/images/macbook-closeup.jpg'
-import img2 from '../../../public/images/red-stitch.jpg'
-import img3 from '../../../public/images/bund-watchstrap.jpg'
+import img1 from '../../../public/images/macbook-closeup.webp'
+import img2 from '../../../public/images/red-stitch.webp'
+import img3 from '../../../public/images/bund-watchstrap.webp'
 
 const HeroImages = [
     {

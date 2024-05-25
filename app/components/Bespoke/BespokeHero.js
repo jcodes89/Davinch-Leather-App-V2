@@ -4,13 +4,13 @@ import React, { useEffect} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Process from './Process'
-import img1 from '../../../public/images/idea.jpg'
-import img2 from '../../../public/images/sketch.jpg'
-import img3 from '../../../public/images/consult.jpg'
-import img4 from '../../../public/images/skin.jpg'
-import img5 from '../../../public/images/cutting.jpg'
-import img6 from '../../../public/images/wallet-destructure.jpg'
-import img7 from '../../../public/images/bag.jpg'
+import img1 from '../../../public/images/idea.webp'
+import img2 from '../../../public/images/sketch.webp'
+import img3 from '../../../public/images/consult.webp'
+import img4 from '../../../public/images/skin.webp'
+import img5 from '../../../public/images/cutting.webp'
+import img6 from '../../../public/images/wallet-destructure.webp'
+import img7 from '../../../public/images/bag.webp'
 import ScrollDownArrow from '../Arrow/ScrollDownArrow'
 
 import { useRef } from 'react'
@@ -49,7 +49,7 @@ useGSAP(() => {
     <section className=" h-full w-full">
       <div className="h-screen flex flex-col items-center relative">
         <h2 className={` text-gray-50 relative z-30 text-5xl top-1/2 `}>Bespoke</h2>
-        <Link aria-label='Link to contact page' className='btn relative z-30 top-[54%]  text-gray-50 hover:bg-accent hover:text-gray-50 text-base hover:scale-105' href={'/contact'}>Create Now</Link>
+        <Link aria-label='Link to contact page where you can send ' className='btn relative z-30 top-[54%]  text-gray-50 hover:bg-accent hover:text-gray-50 text-base hover:scale-105' href={'/contact'}>Create Now</Link>
         <ScrollDownArrow/>
       </div>
     </section>
