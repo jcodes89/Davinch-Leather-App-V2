@@ -22,8 +22,6 @@ export default function RootLayout({ children }) {
       <head>      
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
-        {/* <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"/> */}
-        <link rel='icon' type="image/png" href="https://www.flaticon.com/free-icons/leather"/>
         <script src="https://kit.fontawesome.com/5c59429581.js" defer></script>
       </head>
       <body className={`${cormorant.variable}bg-gray-50 text-gray-950 w-full overflow-x-hidden`}>
