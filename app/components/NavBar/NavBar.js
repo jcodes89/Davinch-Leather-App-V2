@@ -51,7 +51,7 @@ const NavBar = () => {
                 <i className="fa-solid fa-bars scale-125">
                   
                 </i></div>
-                <ul tabIndex={0} className=" mt-[1.1rem] dropdown-content z-40 menu shadow-md shadow-secondary p-0 bg-base-100 rounded-bl-box rounded-br-box w-52 text-gray-950">
+                <ul tabIndex={0} className=" mt-[1.4rem] dropdown-content z-40 menu shadow-md shadow-secondary p-0 bg-base-100 rounded-bl-box rounded-br-box w-52 text-gray-950">
                   <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Home page' href={'/'}>Home</Link></li>
                   <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Bespoke page' href={'/bespoke'}>Bespoke</Link></li>
                   <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Gallery page' href={'/gallery'}>Gallery</Link></li> 
