@@ -38,11 +38,11 @@ const NavBar = () => {
           </div>
           <div className="hidden lg:grid self-center absolute w-screen place-content-end right-[8rem]">
               <ul  className="flex flex-row justify-evenly z-40  p-0 h-full  w-52">
-                <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/'}>Home</Link></li>
-                <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/bespoke'}>Bespoke</Link></li>
-                <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/gallery'}>Gallery</Link></li> 
-                <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/contact'}>Contact</Link></li> 
-                <li className='hover:text-accent  px-2 rounded-badge'><Link href={'/about'}>About</Link></li> 
+                <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Home page' href={'/'}>Home</Link></li>
+                <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Bespoke page for custom work' href={'/bespoke'}>Bespoke</Link></li>
+                <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Gallery Page' href={'/gallery'}>Gallery</Link></li> 
+                <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Contact Page' href={'/contact'}>Contact</Link></li> 
+                <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='About page' href={'/about'}>About</Link></li> 
               </ul>
             </div>
             {/*Dropdown menu on mobile version */}
@@ -52,11 +52,11 @@ const NavBar = () => {
                   
                 </i></div>
                 <ul tabIndex={0} className=" dropdown-content z-40 menu shadow-md shadow-secondary p-0 bg-base-100 rounded-bl-box rounded-br-box w-52 text-gray-950">
-                  <li className='hover:bg-accent hover:text-gray-50'><Link href={'/'}>Home</Link></li>
-                  <li className='hover:bg-accent hover:text-gray-50'><Link href={'/bespoke'}>Bespoke</Link></li>
-                  <li className='hover:bg-accent hover:text-gray-50'><Link href={'/gallery'}>Gallery</Link></li> 
-                  <li className='hover:bg-accent hover:text-gray-50'><Link href={'/contact'}>Contact</Link></li> 
-                  <li className='hover:bg-accent hover:text-gray-50 hover:rounded-bl-box hover:rounded-br-box outline-none'><Link href={'/about'}>About</Link></li> 
+                  <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Home page' href={'/'}>Home</Link></li>
+                  <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Bespoke page' href={'/bespoke'}>Bespoke</Link></li>
+                  <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Gallery page' href={'/gallery'}>Gallery</Link></li> 
+                  <li className='hover:bg-accent hover:text-gray-50'><Link aria-label='Contact page' href={'/contact'}>Contact</Link></li> 
+                  <li className='hover:bg-accent hover:text-gray-50 hover:rounded-bl-box hover:rounded-br-box outline-none'><Link aria-label='About page' href={'/about'}>About</Link></li> 
                 </ul>
             </div>
         </nav>
