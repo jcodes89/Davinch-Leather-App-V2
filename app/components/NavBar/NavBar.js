@@ -37,7 +37,7 @@ const NavBar = () => {
             </div>
           </div>
           <div className="hidden lg:grid self-center absolute w-screen place-content-end right-[8rem]">
-              <ul  className="flex flex-row justify-evenly z-40 pt-[10rem] p-0 h-full  w-52">
+              <ul  className="flex flex-row justify-evenly z-40  p-0 h-full  w-52">
                 <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Home page' href={'/'}>Home</Link></li>
                 <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Bespoke page for custom work' href={'/bespoke'}>Bespoke</Link></li>
                 <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Gallery Page' href={'/gallery'}>Gallery</Link></li> 
@@ -47,7 +47,7 @@ const NavBar = () => {
             </div>
             {/*Dropdown menu on mobile version */}
             <div className="lg:hidden grid absolute w-full place-content-end right-[1rem] md:right-[2rem] dropdown dropdown-bottom dropdown-end">
-              <div tabIndex={0} role="button" className=" mt-2">
+              <div tabIndex={0} aria-label='menu button for navigation links' role="button" className=" mt-2">
                 <i className="fa-solid fa-bars scale-125">
                   
                 </i></div>
