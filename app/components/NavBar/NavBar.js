@@ -30,7 +30,7 @@ const NavBar = () => {
           <SocialMedia/>
           <div className='flex w-screen justify-center'>
             <div className='text-center '>
-                <Link className=' cursor-pointer z-20' href={'/'}>
+                <Link className=' cursor-pointer z-20' aria-label='link to home' href={'/'}>
                     <h2 className=' font-medium text-2xl'><span className='text-accent text-4xl'>D</span>avinch Leather Co</h2>
                     <p className='text-[.6rem] md:text-[.7rem] font-extralight font-serif' >Est 2016</p>
                 </Link>
