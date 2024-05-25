@@ -8,7 +8,7 @@ const ScrollDownArrow = () => {
 
   return (
     <div className="z-20 absolute bottom-10 landscape:bottom-2">
-        <button className="relative" onClick={handleClick}>
+        <button role='button' aria-label='button for scrolling down to next section of the page' className="relative" onClick={handleClick}>
           <i className="fa-solid fa-arrow-down text-gray-50 scale-[2.5]  hover:scale-[3] hover:text-accent "></i>
         </button>
     </div>
