@@ -11,8 +11,8 @@ const Footer = () => {
           <p className='text-sm'>Tampa, FL</p>
         </div>
         <div className='md:hidden flex flex-row justify-center w-full left-3 py-1'>
-          <Link className='' href='https://www.instagram.com/davinchleatherco/'><i className=" mx-2 fa-brands fa-square-instagram text-secondary scale-150 hover:text-accent hover:scale-[1.75]"></i></Link>
-          <Link className='' href='https://www.facebook.com/davinchleatherco/'><i className=" mx-2 fa-brands fa-square-facebook text-secondary scale-150 hover:text-accent hover:scale-[1.75]"></i></Link>
+          <Link className='' href='https://www.instagram.com/davinchleatherco/'><i className=" mx-3 fa-brands fa-square-instagram text-secondary scale-150 hover:text-accent hover:scale-[2]"></i></Link>
+          <Link className='' href='https://www.facebook.com/davinchleatherco/'><i className=" mx-3 fa-brands fa-square-facebook text-secondary scale-150 hover:text-accent hover:scale-[2]"></i></Link>
         </div>
       </footer>
     </>
