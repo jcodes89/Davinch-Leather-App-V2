@@ -18,7 +18,7 @@ const GalleryHero = () => {
         {Images.map((img) => 
           <Image 
             key={img.id}
-            className='galleryImage h-full w-full  sm:hover:border-0 '
+            className='galleryImage h-full w-auto  sm:hover:border-0 '
             src={img.src}
             alt='Images of leather products'
           />
