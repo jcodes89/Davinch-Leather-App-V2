@@ -36,7 +36,7 @@ const NavBar = () => {
                 </Link>
             </div>
           </div>
-          <div className="hidden lg:grid self-center absolute w-screen place-content-end right-[8rem]">
+          <div className="hidden lg:grid self-center absolute w-screen place-content-end top-[4rem] right-[8rem]">
               <ul  className="flex flex-row justify-evenly z-40  p-0 h-full  w-52">
                 <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Home page' href={'/'}>Home</Link></li>
                 <li className='hover:text-accent  px-2 rounded-badge'><Link aria-label='Bespoke page for custom work' href={'/bespoke'}>Bespoke</Link></li>
